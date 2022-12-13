@@ -7,6 +7,7 @@
 :root{
     --font1: 'Space Mono', monospace;
     --cor1: rgb(5, 185, 250);
+    --cor2: rgb(20, 20, 20);
 }
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 /*CONFIG GERAL*/
@@ -50,34 +51,85 @@ header{
 }
 /*HEAD*/
 main{
-    background-color: rgb(30, 30, 30);
+    background-color: var(--cor2);
     width: 99.2vw;
-    height: 100vh;
+    height: 210vh;
 }
-#sec1{
-    background-image: linear-gradient(#50CDFA, #0493C7);
-    width: 99.2vw;
-    height: 150vh;
+#sec1 h1{
+    text-align: center;
+    font: normal bold 2.5em 'Arial';
+    color: var(--cor1);
+    padding: 30px;
 }
-.blocos{
+#bloco{
     display: inline-block;
-    background-color: white;
-    width: 900px;
-    height: 600px;
-    margin: 48px 24.150px;
+    background-color: rgb(255, 255, 255);
+    width: 580px;
+    height: 780px;
+    margin: 40px 0px 60px 40px;
+    border-radius: 15px;
+}
+#bloco h1{
+    color: black;
+    margin-top: 65%;
+}
+.bi1{
+    background-image: url(../imagens/vintage/mustang69.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+.bi2{
+    background-image: url(../imagens/vintage/1980-porsche-911turbo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+.bi3{
+    background-image: url(../imagens/vintage/Ferrari_F40_-_M5904-00008_4000x2677_crop_center.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+.bi4{
+    background-image: url(../imagens/hypers/lambocount.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+.bi5{
+    background-image: url(../imagens/hypers/paganihu.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+.bi6{
+    background-image: url(../imagens/hypers/koeni.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
 }
 /*CORPO*/
 footer{
-    margin-top: 24%;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(40, 40, 40);
     width: 99.2vw;
-    height: 5vh;
+    height: 270px;
 }
 footer h1{
     font: normal normal 1.5em var(--font1);
     color: white;
     text-align: center;
-    padding: 9px;
+    padding: 40px 10px 10px 10px;
+}
+footer p{
+    font: normal normal 1em 'Arial';
+    color: white;
+    padding: 20px 20px 5px;
+}
+footer > a > img{
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 footer a{
     color: white;
