@@ -6,8 +6,12 @@
 }
 :root{
     --font1: 'Space Mono', monospace;
+    --font3: 'Second Mono';
     --cor1: rgb(5, 185, 250);
     --cor2: rgb(20, 20, 20);
+}
+@font-face {
+    font-family: 'Second Mono'; src: url('../font/MonospaceTypewriter.ttf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 /*CONFIG GERAL*/
@@ -53,25 +57,26 @@ header{
 main{
     background-color: var(--cor2);
     width: 99.2vw;
-    height: 210vh;
+    height: 220vh;
 }
 #sec1 h1{
     text-align: center;
     font: normal bold 2.5em 'Arial';
     color: var(--cor1);
-    padding: 30px;
+    padding: 50px 20px 10px 20px;
 }
 #bloco{
     display: inline-block;
     background-color: rgb(255, 255, 255);
     width: 580px;
-    height: 780px;
+    height: 700px;
     margin: 40px 0px 60px 40px;
     border-radius: 15px;
 }
 #bloco h1{
     color: black;
     margin-top: 65%;
+    font: normal 500 2em var(--font3);
 }
 .bi1{
     background-image: url(../imagens/vintage/mustang69.webp);
