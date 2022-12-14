@@ -14,6 +14,7 @@
     font-family: 'Second Mono'; src: url('../font/MonospaceTypewriter.ttf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 /*CONFIG GERAL*/
 header{
     position: absolute;
@@ -27,6 +28,11 @@ header{
 #title a:hover{
     background-color: rgba(255, 255, 255, 0);
     color: var(--cor1);
+}
+#login{
+    position: absolute;
+    text-align: left;
+    left: 100px;
 }
 .menu{
     text-align: right;
@@ -57,7 +63,8 @@ header{
 main{
     background-color: var(--cor2);
     width: 99.2vw;
-    height: 220vh;
+    min-height: 210vh;
+    height: max-content;
 }
 #sec1 h1{
     text-align: center;
@@ -67,16 +74,36 @@ main{
 }
 #bloco{
     display: inline-block;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(15, 15, 15);
+    color: var(--cor1);
     width: 580px;
-    height: 700px;
+    height: 750px;
     margin: 40px 0px 60px 40px;
     border-radius: 15px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 #bloco h1{
-    color: black;
-    margin-top: 65%;
+    color: var(--cor1);
+    margin-top: 70%;
+    padding: 10px;
     font: normal 500 2em var(--font3);
+}
+#bloco p{
+    font: normal normal 1.2em var(--font3);
+    padding: 20px;
+}
+#bloco a{
+    color: white;
+}
+.valor:hover{
+    background-color: #025A7A;
+}
+.valor{
+    text-align: center;
+    background-color: var(--cor1);
+    padding: 20px;
+    margin-top: 17px;
+    border-radius: 0px 0px 15px 15px;
 }
 .bi1{
     background-image: url(../imagens/vintage/mustang69.webp);
@@ -141,5 +168,12 @@ footer a{
 }
 footer a:hover{
     color: var(--cor1);
+}
+footer > div > a:hover{
+    color: var(--cor1);
+    text-decoration: underline;
+}
+.plus{
+    width: max-content;
 }
 /*PÉ*/

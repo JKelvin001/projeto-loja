@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+@font-face {
+    font-family: 'Second Mono'; src: url('../font/MonospaceTypewriter.ttf') format('truetype');
+}
+header{
+    background-image: url(../60421423f7f28e06a91acab7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom 40%;
+    width: 100vw;
+    height: 50vh;
+}
+header input{
+    padding: 5px;
+    margin: 15px;
+    width: 500px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 15px;
+}
+main{
+    
+}
+ul{
+    background-color: rgb(15, 15, 15);
+    width: 60vw;
+    height: 41.450vh;
+    padding: 40px 100px;
+    font: normal normal 1em 'Second Mono';
+}
+li{
+    line-height: 40px;
+    color: white;
+}
